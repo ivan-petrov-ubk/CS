@@ -1,0 +1,5583 @@
+Технические индикаторы
+Для создания технического индикатора на графике валютной пары используется метод GetIndicator класса ProgramBase, который является общедоступным.
+Название	Описание
+GetIndicator
+Метод GetIndicator создает заданный индикатор.
+Индикатор Accelerator Oscillator
+Для создания индикатора Accelerator Oscillator и получения информации о нем, используется класс Accelerator Oscillator, который наследуется от класса Indicator. 
+Индикатор Accumulation/Distribution
+Для создания индикатора Accumulation/Distribution и получения информации о нем, используется класс AccumulationDistribution, который наследуется от класса Indicator. 
+Индикатор Alligator
+Для создания индикатора Alligator и получения информации о нем, используется класс Alligator, который наследуется от класса Indicator.
+Индикатор Aroon
+Для создания индикатора Aroon и получения информации о нем, используется класс Aroon, который наследуется от класса Indicator.
+Индикатор Average Directional Movement
+Для создания индикатора Average Directional Movement и получения информации о нем, используется класс AverageDirectionalMovement, который наследуется от класса Indicator.
+Индикатор Average True Range
+Для создания индикатора Average True Range и получения информации о нем, используется класс AverageTrueRange, который наследуется от класса Indicator.
+Индикатор Awesome Oscillator
+Для создания индикатора Awesome Oscillator и получения информации о нем, используется класс AwesomeOscillator, который наследуется от класса Indicator.
+Индикатор Bears Power
+Для создания индикатора Bears Power и получения информации о нем, используется класс BearsPower, который наследуется от класса Indicator.
+Индикатор Bollinger Bands
+Для создания индикатора Bollinger Bands и получения информации о нем, используется класс BollingerBands, который наследуется от класса Indicator.
+Индикатор Bulls Power
+Для создания индикатора Bulls Power и получения информации о нем, используется класс BullsPower, который наследуется от класса Indicator.
+Индикатор Chaikin Oscillator
+Для создания индикатора Chaikin Oscillator и получения информации о нем, используется класс Chaikin Oscillator, который наследуется от класса Indicator.
+Индикатор Chaikin Volatility
+Для создания индикатора Chaikin Volatility и получения информации о нем, используется класс ChaikinVolatility, который наследуется от класса Indicator.
+Индикатор Commodity Channel Index
+Для создания индикатора Commodity Channel Index и получения информации о нем, используется класс CommodityChannelIndex, который наследуется от класса Indicator.
+Индикатор DeMarker
+Для создания индикатора DeMarker и получения информации о нем, используется класс DeMarker, который наследуется от класса Indicator.
+Индикатор Detrended Price Oscillator
+Для создания индикатора Detrended Price  Oscillator и получения информации о нем, используется класс DetrendedPriceOscillator, который наследуется от класса Indicator.
+Индикатор Ease Of Movement
+Для создания индикатора Ease Of Movement и получения информации о нем, используется класс EaseOfMovement, который наследуется от класса Indicator.
+Индикатор Envelopes
+Для создания индикатора Envelopes и получения информации о нем, используется класс Envelopes, который наследуется от класса Indicator.
+Индикатор Fisher Transform Oscillator
+Для создания индикатора Fisher Transform Oscillator и получения информации о нем, используется класс FisherTransformOscillator, который наследуется от класса Indicator.
+Индикатор Force Index
+Для создания индикатора Force Index и получения информации о нем, используется класс ForceIndex, который наследуется от класса Indicator.
+Индикатор Fractals
+Для создания индикатора Fractals и получения информации о нем, используется класс Fractals, который наследуется от класса Indicator.
+Индикатор Gator Oscillator
+Для создания индикатора Gator Oscillator и получения информации о нем, используется класс GatorOscillator, который наследуется от класса Indicator.
+Индикатор Heiken Ashi
+Для создания индикатора Heiken Ashi и получения информации о нем, используется класс HeikenAshi, который наследуется от класса Indicator.
+Индикатор Ichimoku Kinko Hyo
+Для создания индикатора Ichimoku Kinko Hyo и получения информации о нем, используется класс Ichimoku, который наследуется от класса Indicator.
+Индикатор Keltner Channel
+Для создания индикатора Keltner Channel и получения информации о нем, используется класс KeltnerChannel, который наследуется от класса Indicator.
+Индикатор Market Facilitation Index
+Для создания индикатора Market Facilitation Index и получения информации о нем, используется класс MarketFacilitationIndex, который наследуется от класса Indicator.
+Индикатор Mass Index
+Для создания индикатора Mass Index и получения информации о нем, используется класс MassIndex, который наследуется от класса Indicator.
+Индикатор Momentum
+Для создания индикатора Momentum и получения информации о нем, используется класс Momentum, который наследуется от класса Indicator.
+Индикатор Money Flow Index
+Для создания индикатора Money  Flow Index и получения информации о нем, используется класс MoneyFlowIndex, который наследуется от класса Indicator.
+Индикатор Moving Average
+Для создания индикатора Moving Average и получения информации о нем, используется класс MovingAverage, который наследуется от класса Indicator.
+Индикатор Moving Average Convergence Divergence (MACD)
+Для создания индикатора Moving Average Convergence Divergence (MACD) и получения информации о нем, используется класс MovingAverageConvergenceDivergence, который наследуется от класса Indicator.
+Индикатор Moving Average of Oscillator
+Для создания индикатора Moving Average of Oscillator и получения информации о нем, используется класс MovingAverageofOscillator, который наследуется от класса Indicator.
+Индикатор On Balance Volume
+Для создания индикатора On Balance Volume и получения информации о нем, используется класс OnBalanceVolume, который наследуется от класса Indicator.
+Индикатор Parabolic SAR
+Для создания индикатора Parabolic SAR и получения информации о нем, используется класс ParabolicSAR, который наследуется от класса Indicator.
+Индикатор Pivot
+Для создания индикатора Pivot и получения информации о нем, используется класс Pivot, который наследуется от класса Indicator.
+Индикатор Price Channel
+Для создания индикатора Price  Channel и получения информации о нем, используется класс PriceChannel, который наследуется от класса Indicator.
+Индикатор Rate Of Change Oscillator (ROC Oscillator)
+Для создания индикатора Rate Of Change Oscillator и получения информации о нем, используется класс RateOfChangeOscillator, который наследуется от класса Indicator.
+Индикатор Regression Line
+Для создания индикатора Regression Line и получения информации о нем, используется класс RegressionLine, который наследуется от класса Indicator.
+Индикатор Relative Strenght Index
+Для создания индикатора Relative Strenght Index и получения информации о нем, используется класс RelativeStrenghtIndex, который наследуется от класса Indicator.
+Индикатор Relative Vigor Index
+Для создания индикатора Relative Vigor Index и получения информации о нем, используется класс RelativeVigorIndex, который наследуется от класса Indicator.
+Индикатор Standard Deviation
+Для создания индикатора Standard Deviation и получения информации о нем, используется класс StandardDeviation, который наследуется от класса Indicator.
+Индикатор Stochastic Oscillator
+Для создания индикатора Stochastic Oscillator и получения информации о нем, используется класс StochasticOscillator, который наследуется от класса Indicator.
+Индикатор Support and Resistance
+Для создания индикатора Support and Resistance и получения информации о нем, используется класс SupportAndResistance, который наследуется от класса Indicator.
+Индикатор Time Series Forecast
+Для создания индикатора Time Series Forecast и получения информации о нем, используется класс TimeSeriesForecast, который наследуется от класса Indicator.
+Индикатор Trend Envelope
+Для создания индикатора Trend Envelope и получения информации о нем, используется класс TrendEnvelope, который наследуется от класса Indicator.
+Индикатор Trend Price Channel
+Для создания индикатора Trend Price  Channel и получения информации о нем, используется класс TrendPriceChannel, который наследуется от класса Indicator.
+Индикатор Volumes
+Для создания индикатора Volumes и получения информации о нем, используется класс Volumes, который наследуется от класса Indicator.
+Индикатор Williams Percent Range
+Для создания индикатора Williams Percent Range и получения информации о нем, используется класс WilliamsPercentRange, который наследуется от класса Indicator.
+Индикатор Zig-Zag
+Для создания индикатора Zig-Zag и получения информации о нем, используется класс ZigZag, который наследуется от класса Indicator.
+GetIndicator
+Метод GetIndicator создает заданный индикатор.
+ 
+TIndicator GetIndicator(Guid instrumentId, Period period, params Object[] values)
+where TIndicator : Indicator
+ 
+Параметры:
+instrumentId
+Type: System.Guid
+Идентификатор инструмента
+period
+Type: IPro.Model.Client.MarketData.Period
+Период индикатора
+values
+Type:System.Object[]
+Список параметров
+ 
+Параметры типа: 
+TIndicator
+      Индикатор
+Тип возвращаемого значения: TIndicator
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор MovingAverage.
+private MovingAverage _ma;
+private int _maPeriod = 10;
+private int _maShift = 0;
+private MaMethods _maMethod;
+private PriceMode _priceMode = PriceMode.Low;
+protected override void Init()
+{
+    _ma = GetIndicator(Instrument.Id, _period, _maPeriod, _maShift, _maMethod, _priceMode);
+} 
+Индикатор Accelerator Oscillator
+Для создания индикатора Accelerator Oscillator и получения информации о нем, используется класс Accelerator Oscillator, который наследуется от класса Indicator. 
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+SeriesDown
+Свойство SeriesDown возвращает или задает значение нижней серии индикатора.
+IIndicatorSeries SeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Accelerator Oscillator и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AcceleratorOscillator _aoInd;
+        protected override void Init()
+        {
+            _aoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Accelerator oscillator down series value: {0}", _aoInd.SeriesDown[Bars.Range.To - 1]);
+        }
+    }
+}
+ 
+SeriesUp
+Свойство SeriesUp возвращает или задает значение нижней серии индикатора.
+IIndicatorSeries SeriesUp { get; set; }
+ Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Accelerator Oscillator и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AcceleratorOscillator _aoInd;
+        protected override void Init()
+        {
+            _aoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Accelerator oscillator up series value: {0}", _aoInd.SeriesUp[Bars.Range.To - 1]);
+        }
+    }
+}
+Индикатор Accumulation/Distribution
+Для создания индикатора Accumulation/Distribution и получения информации о нем, используется класс AccumulationDistribution, который наследуется от класса Indicator. 
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+MainSeries
+Свойство MainSeries возвращает или задает значение главной серии индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Accumulation/Distribution и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AccumulationDistribution _adInd;
+        protected override void Init()
+        {
+            _adInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Accumulation distribution value: {0}", _adInd.MainSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Alligator
+Для создания индикатора Alligator и получения информации о нем, используется класс Alligator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+JawsPeriod
+Свойство JawsPeriod возвращает или задает период линии «Челюсть Аллигатора».
+Int JawsPeriod { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить  значение параметра для линии «Челюсть Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator jaws period value: {0}", _allInd.JawsPeriod);
+        }
+    }
+}
+ 
+JawsSeries
+Свойство JawsSeries возвращает или задает серию значений для периода линии «Челюсть Аллигатора».
+IIndicatorSeries JawsSeries { get; set; }
+Тип возвращаемого значения: IIndicatorsSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить  последнее значение серии для линии «Челюсть Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator jaws series value: {0}", _allInd.JawsSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+JawsShift
+Свойство JawsShift возвращает или задает смещение для периода линии «Челюсть Аллигатора».
+int JawsShift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить   значение смещения для линии «Челюсть Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator jaws shift value: {0}", _allInd.JawsShift);
+        }
+    }
+}
+ 
+LipsPeriod
+Свойство LipsPeriod возвращает или задает период линии «Губы Аллигатора».
+Int LipsPeriod { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить  значение параметра для линии «Губы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator lips period value: {0}", _allInd.LipsPeriod);
+        }
+    }
+}
+ 
+LipsSeries
+Свойство LipsSeries возвращает или задает серию значений для периода линии «Губы Аллигатора».
+IIndicatorSeries LipsSeries { get; set; }
+Тип возвращаемого значения: IIndicatorsSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить  последнее значение серии для линии «Губы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator lips series value: {0}", _allInd.LipsSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+LipsShift
+Свойство LipsShift возвращает или задает смещение для периода линии «Губы Аллигатора».
+int LipsShift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить   значение смещения для линии «Губы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator lips shift value: {0}", _allInd.LipsShift);
+        }
+    }
+} 
+ 
+TeethPeriod 
+Свойство TeethPeriod возвращает или задает период линии «Зубы Аллигатора».
+Int TeethPeriod { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить  значение параметра для линии «Зубы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator teeth period value: {0}", _allInd.TeethPeriod);
+        }
+    }
+}
+ 
+TeethSeries 
+Свойство TeethSeries возвращает или задает серию значений для периода линии «Зубы Аллигатора».
+IIndicatorSeries TeethSeries { get; set; }
+Тип возвращаемого значения: IIndicatorsSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить  последнее значение серии для линии «Зубы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator teeth series value: {0}", _allInd.LipsSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+TeethShift
+Свойство TeethShift возвращает или задает смещение для периода линии «Зубы Аллигатора».
+int TeethShift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и получить   значение смещения для линии «Зубы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Alligator _allInd;
+        protected override void Init()
+        {
+            _allInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Alligator teeth shift value: {0}", _allInd.TeethShift );
+        }
+    }
+ 
+Method 
+Свойство Method возвращает или задает метод вычисления значения скользящей средней для индикатора.
+MaMethods Method { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и задать метод вычисления простой скользящей средней SMA.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var allInd = GetIndicator(Instrument.Id, Timeframe);
+            allInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+PriceMode
+Свойство PriceMode возвращает или задает тип цены, по которой происходит вычисление значений индикатора.
+PriceMode PriceMode { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Alligator и задать тип цены, по которому будет происходить вычисление значений индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var allInd = GetIndicator(Instrument.Id, Timeframe);
+            allInd.PriceMode = PriceMode.Close;
+        }
+    }
+} 
+Индикатор Aroon
+Для создания индикатора Aroon и получения информации о нем, используется класс Aroon, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+DownSeries
+Свойство DownSeries возвращает или задает значение нижней серии индикатора.
+IIndicatorSeries DownSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Aroon и получить последнее значение нижней серии.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Aroon _aroonlInd;
+        protected override void Init()
+        {
+            _aroonlInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Aroon down series value: {0}", _aroonlInd.DownSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+UpSeries
+Свойство UpSeries возвращает или задает значение верхней серии индикатора.
+IIndicatorSeries UpSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Aroon и получить последнее значение верхней серии.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Aroon _aroonlInd;
+        protected override void Init()
+        {
+            _aroonlInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Aroon up series value: {0}", _aroonlInd.UpSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+Int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Aroon и получить последнее значение периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Aroon_aroonlInd ;
+        protected override void Init()
+        {
+            _aroonlInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Aroon period value: {0}", _aroonlInd .Period);
+        }
+    }
+}
+Индикатор Average Directional Movement
+Для создания индикатора Average Directional Movement и получения информации о нем, используется класс AverageDirectionalMovement, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Average Directional Movement и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var admInd = GetIndicator(Instrument.Id, Timeframe);
+            admInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+} 
+ 
+Period 
+Свойство Period возвращает или задает значение периода индикатора.
+Int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Average Directional Movement и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AverageDirectionalMovement _admInd;
+        protected override void Init()
+        {
+             _admInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("AverageDirectionalMovement period value: {0}", _admInd.Period);
+        }
+    }
+}
+ 
+SeriesDm
+IIndicatorSeries SeriesDm { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Average Directional Movement и получить последнее значение отрицательно направленной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AverageDirectionalMovement _admInd;
+        protected override void Init()
+        {
+            var admInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Average directional movement negative series value: {0}", _admInd.SeriesDm [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesDp
+Свойство SeriesDp возвращает или задает значение положительно направленной серии индикатора.
+IIndicatorSeries SeriesDp { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Average Directional Movement и получить последнее значение положительно направленной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AverageDirectionalMovement _admInd;
+        protected override void Init()
+        {
+            var admInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Average directional movement positive series value: {0}", _admInd.SeriesDp [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesMain
+Свойство SeriesMain возвращает или задает значение главной серии индикатора.
+IIndicatorSeries SeriMain { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Average Directional Movement и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AverageDirectionalMovement _admInd;
+        protected override void Init()
+        {
+            var admInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Average directional movement main series value: {0}", _admInd.SeriesMain[Bars.Range.To-1]);
+        }
+    }
+Индикатор Average True Range
+Для создания индикатора Average True Range и получения информации о нем, используется класс AverageTrueRange, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Average True Range и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AverageTrueRange _atrInd;
+        protected override void Init()
+        {
+            _atrInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Average true range period value: {0}", _atrInd.Period);
+        }
+    }
+}
+ 
+SeriesAtr
+Свойство SeriesAtr возвращает или задает серию значений индикатора.
+IIndicatorSeries SeriesAtr { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Average True Range и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AverageTrueRange _atrInd;
+        protected override void Init()
+        {
+            _atrInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Average true range main series value: {0}", _atrInd.SeriesAtr[Bars.Range.To-1]);
+        }
+    }
+} 
+Индикатор Awesome Oscillator
+Для создания индикатора Awesome Oscillator и получения информации о нем, используется класс AwesomeOscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+SeriesDown
+Свойство SeriesDown возвращает или задает значение нижней серии индикатора.
+IIndicatorSeries SeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Awesome Oscillator и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AwesomeOscillator _awoInd;
+        protected override void Init()
+        {
+            _awoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Awesome oscillator down series value: {0}", _awoInd.SeriesDown[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesUp
+Свойство SeriesUp возвращает или задает значение верхней серии индикатора.
+IIndicatorSeries SeriesUp { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Awesome Oscillator и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private AwesomeOscillator _awoInd;
+        protected override void Init()
+        {
+            _awoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Awesome oscillator up series value: {0}", _awoInd.SeriesUp[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Bears Power
+Для создания индикатора Bears Power и получения информации о нем, используется класс BearsPower, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bears Power и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var _bpInd = GetIndicator(Instrument.Id, Timeframe);
+            _bpInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+Int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bears Power и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BearsPower _bpInd;
+        protected override void Init()
+        {
+             _bpInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("BearsPower period value: {0}", _bpInd.Period);
+        }
+    }
+}
+ 
+SeriesMain
+Свойство SeriesMain возвращает или задает значение главной серии индикатора.
+IIndicatorSeries SeriesMain { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bears Power и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BearsPower _bpInd;
+        protected override void Init()
+        {
+            _bpInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("BearsPower main series value: {0}", _bpInd.SeriesMain[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Bollinger Bands
+Для создания индикатора Bollinger Bands и получения информации о нем, используется класс BollingerBands, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bollinger Bands и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var bbInd = GetIndicator(Instrument.Id, Timeframe);
+            bbInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Deviation
+Свойство Deviation возвращает или задает значение отклонения индикатора.
+double Deviation { get; set; }
+Тип возвращаемого значения: double
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bollinger Bands и задать значение отклонения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var bbInd = GetIndicator(Instrument.Id, Timeframe);
+            bbInd.Deviation = 3;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bollinger Bands и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BollingerBands _bbInd;
+        protected override void Init()
+        {
+            _bbInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("BollingerBands period value: {0}", _bbInd .Period);
+        }
+    }
+}
+ 
+SeriesCenter 
+Свойство SeriesCenter возвращает или задает среднюю серию значений индикатора.
+IIndicatorSeries SeriesCenter { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bollinger Bands и получить последнее значение средней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BollingerBands _bbInd;
+        protected override void Init()
+        {
+            _bbInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Bollinger bands center series value: {0}", _bbInd.SeriesCenter[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesDown
+Свойство SeriesDown возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries SeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bollinger Bands и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BollingerBands _bbInd;
+        protected override void Init()
+        {
+            _bbInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Bollinger bands down series value: {0}", _bbInd.SeriesDown[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesUp 
+Свойство SeriesUp возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries SeriesUp { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bollinger Bands и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BollingerBands _bbInd;
+        protected override void Init()
+        {
+            _bbInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Bollinger bands up series value: {0}", _bbInd.SeriesUp[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Shift
+Свойство Shift возвращает или задает смещение индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bollinger Bands и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BollingerBands _bbInd;
+        protected override void Init()
+        {
+            _bbInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("BollingerBands shift value: {0}", _bbInd .Shift);
+        }
+    }
+}
+Индикатор Bulls Power
+Для создания индикатора Bulls Power и получения информации о нем, используется класс BullsPower, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bulls Power и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var bpInd= GetIndicator(Instrument.Id, Timeframe);
+            bpInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+Int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bulls Power и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BullsPower _bpInd;
+        protected override void Init()
+        {
+             _bpInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("BullsPower period value: {0}", _bpInd.Period);
+        }
+    }
+}
+ 
+SeriesMain
+Свойство SeriesMain возвращает или задает значение главной серии индикатора.
+IIndicatorSeries SeriesMain { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Bulls Power и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private BullsPower _bpInd;
+        protected override void Init()
+        {
+            _bpInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("BullsPower main series value: {0}", _bpInd.SeriesMain[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Chaikin Oscillator
+Для создания индикатора Chaikin Oscillator и получения информации о нем, используется класс Chaikin Oscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+FastEmaPeriod
+Свойство FastEmaPeriod возвращает или задает значение периода для быстрой экспоненциальной скользящей средней EMA.
+int FastEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Chaikin Oscillator и получить значение периода быстрой экспоненциальной скользящей средней EMA.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ChaikinOscillator _coInd;
+        protected override void Init()
+        {
+            _coInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Chaikin oscillator FastEmaPeriod value: {0}", _coInd.FastEmaPeriod );
+        }
+    }
+}
+ 
+SlowEmaPeriod
+Свойство SlowEmaPeriod возвращает или задает значение периода для медленной экспоненциальной скользящей средней EMA.
+int SlowEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Chaikin Oscillator и получить значение периода медленной экспоненциальной скользящей средней EMA.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ChaikinOscillator _coInd;
+        protected override void Init()
+        {
+            _coInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Chaikin oscillator SlowEmaPeriod value: {0}", _coInd.SlowEmaPeriod);
+        }
+    }
+}
+ 
+MainSeries
+Свойство MainSeries возвращает или задает значение главной серии индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Chaikin Oscillator и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ChaikinOscillator _coInd;
+        protected override void Init()
+        {
+            _coInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ChaikinOscillator main series value: {0}", _coInd.MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Chaikin Volatility
+Для создания индикатора Chaikin Volatility и получения информации о нем, используется класс ChaikinVolatility, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+EmaPeriod
+Свойство EmaPeriod возвращает или задает значение периода для экспоненциальной скользящей средней EMA.
+int EmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Chaikin Volatility и получить значение периода экспоненциальной скользящей средней EMA.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ChaikinVolatility _cvInd;
+        protected override void Init()
+        {
+            _cvInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("ChaikinVolatility EmaPeriod value: {0}", _cvInd .EmaPeriod );
+        }
+    }
+}
+ 
+MainSeries
+Свойство MainSeries возвращает или задает значение главной серии индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Chaikin Volatility и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ChaikinVolatility _cvInd;
+        protected override void Init()
+        {
+            _cvInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ChaikinVolatility main series value: {0}", _cvInd.MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period 
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Chaikin Volatility и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ChaikinVolatility _cvInd;
+        protected override void Init()
+        {
+            _cvInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("ChaikinVolatility period value: {0}", _cvInd.Period);
+        }
+    }
+}
+Индикатор Commodity Channel Index
+Для создания индикатора Commodity Channel Index и получения информации о нем, используется класс CommodityChannelIndex, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainSeries
+Свойство MainSeries возвращает или задает значение главной серии индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Commodity Channel Index и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private CommodityChannelIndex _cciInd;
+        protected override void Init()
+        {
+            _cciInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("CommodityChannelIndex series value: {0}", _cciInd .MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Commodity Channel Index и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystem
+{
+    [TradeSystem("CreateIndicator")
+    public class CreateIndicator : TradeSystem
+    {
+        private CommodityChannelIndex _cciInd;
+        protected override void Init()
+        {
+            _cciInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("CommodityChannelIndex period value: {0}", _cciInd.Period);
+        }
+    }
+}
+ 
+PriceMode
+Свойство PriceMode возвращает или задает значение периода индикатора.
+PriceMode PriceMode  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Commodity Channel Index и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private CommodityChannelIndex _cciInd;
+        protected override void Init()
+        {
+            _cciInd = GetIndicator(Instrument.Id, Timeframe);
+           _cciInd.PriceMode = PriceMode.Close;
+        }
+    }
+}
+Индикатор DeMarker
+Для создания индикатора DeMarker и получения информации о нем, используется класс DeMarker, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор DeMarker и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private DeMarker _dmInd;
+        protected override void Init()
+        {
+            _dmInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("DeMarker period value: {0}", _dmInd.Period);
+        }
+    }
+}
+ 
+SeriesMain
+Свойство SeriesMain возвращает или задает значение главной серии индикатора.
+IIndicatorSeries SeriesMain { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор DeMarker и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private DeMarker _dmInd;
+        protected override void Init()
+        {
+            _dmInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("DeMarker series value: {0}", _dmInd.SeriesMain[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Detrended Price  Oscillator
+Для создания индикатора Detrended Price Oscillator и получения информации о нем, используется класс DetrendedPriceOscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Detrended Price  Oscillator и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private DetrendedPriceOscillator _dpoInd;
+        protected override void Init()
+        {
+            _dpoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Detrended price oscillator period value: {0}", _dpoInd.Period);
+        }
+    }
+}
+ 
+MainSeries
+Свойство MainSeries возвращает или задает значение главной серии индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Detrended Price  Oscillator и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private DetrendedPriceOscillator _dpoInd;
+        protected override void Init()
+        {
+            _dpoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+         protected override void NewBar()
+        {
+           Print("Detrended price oscillator main series value: {0}", _dpoInd.MainSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Ease Of Movement
+Для создания индикатора Ease Of Movement и получения информации о нем, используется класс EaseOfMovement, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ease Of Movement и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private EaseOfMovement _eomInd;
+        protected override void Init()
+        {
+            _eomInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ease of movement period value: {0}", _eomInd.MainSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+MainSeries
+Свойство MainSeries возвращает или задает значение главной серии индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ease Of Movement и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private EaseOfMovement _eomInd;
+        protected override void Init()
+        {
+            _eomInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ease of movement main series value: {0}", _eomInd.MainSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Multiplier 
+Свойство Multiplier возвращает или задает значение множителя индикатора.
+int Multiplier  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ease Of Movement и получить значение множителя.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private EaseOfMovement _eomInd;
+        protected override void Init()
+        {
+            _eomInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ease of movement main series value: {0}", _eomInd.Multiplier);
+        }
+    }
+}
+Индикатор Envelopes
+Для создания индикатора Envelopes и получения информации о нем, используется класс Envelopes, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Envelopes и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Envelopes _envInd;
+        protected override void Init()
+        {
+            _envInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           _envInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Deviation 
+Свойство Deviation возвращает или задает значение отклонения индикатора.
+double Deviation  { get; set; }
+Тип возвращаемого значения: double
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Envelopes и задать значение отклонения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var envInd = GetIndicator(Instrument.Id, Timeframe);
+            envInd.Deviation = 3;
+        }
+    }
+}
+ 
+Method 
+Свойство Method возвращает или задает метод вычисления значения скользящей средней для индикатора.
+MaMethod Method  { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Envelopes и задать метод вычисления скользящей средней для индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var envInd = GetIndicator(Instrument.Id, Timeframe);
+            envInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Envelopes и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Envelopes _envInd;
+        protected override void Init()
+        {
+            _envInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Envelopes period value: {0}", _envInd.Period);
+        }
+    }
+}
+ 
+SeriesDown
+Свойство SeriesDown возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries SeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Envelopes и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Envelopes _envInd ;
+        protected override void Init()
+        {
+            _envInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Envelopes down series value: {0}", _envInd.SeriesDown[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesUp
+Свойство SeriesUp возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries SeriesUp { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Envelopes и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Envelopes _envInd ;
+        protected override void Init()
+        {
+            _envInd  = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Envelopes up series value: {0}", _envInd .SeriesUp[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Shift
+Свойство Shift возвращает или задает смещение индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Envelopes и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Envelopes _envInd ;
+        protected override void Init()
+        {
+            _envInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Envelopes shift value: {0}", _envInd.Shift);
+        }
+    }
+}
+Индикатор Fisher Transform Oscillator
+Для создания индикатора Fisher Transform Oscillator и получения информации о нем, используется класс FisherTransformOscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+DownSeries
+Свойство DownSeries возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries DownSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Fisher transform oscillator down series value: {0}", _ftoInd.DownSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+FisherSeries
+Свойство FisherSeries возвращает или задает значение Fisher серии индикатора.
+IIndicatorSeries FisherSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и получить последнее значение Fisher серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Fisher transform oscillator fisher series value: {0}", _ftoInd.FisherSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Ma1Method
+Свойство Ma1Method возвращает или задает метод вычисления значения простой скользящей средней для индикатора по значению периода линии Ma1.
+MaMethod Ma1Method  { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и задать метод вычисления простой скользящей средней.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+       protected override void NewBar()
+        {
+           var ftoInd = GetIndicator(Instrument.Id, Timeframe);
+            ftoInd .Ma1Methods = MaMethods.Sma;
+        }
+    }
+}
+ 
+Ma1Period
+Свойство Ma1Period возвращает или задает значение периода линии Ma1 индикатора.
+int Ma1Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и задать значение периода линии Ma1 индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("FisherTransformOscillator ma1 period value: {0}", _ftoInd.Ma1Period);
+        }
+    }
+}
+ 
+Ma1Series
+Свойство Ma1Series возвращает или задает серию значений периода линии Ma1 индикатора.
+IIndicatorSeries Ma1Series { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и получить последнее значение серии периода линии Ma1 индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Fisher transform oscillator Ma1 series value: {0}", _ftoInd.Ma1Series[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Ma2Method
+Свойство Ma2Method возвращает или задает метод вычисления значения простой скользящей средней для индикатора по значению периода линии Ma2.
+MaMethod Ma2Method  { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и задать метод вычисления простой скользящей средней.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+       protected override void NewBar()
+        {
+           var ftoInd = GetIndicator(Instrument.Id, Timeframe);
+            ftoInd .Ma2Methods= MaMethods.Sma;
+        }
+    }
+}
+ 
+Ma2Period
+Свойство Ma2Period возвращает или задает значение периода линии Ma2 индикатора.
+int Ma2Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и задать значение периода линии Ma2 индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("FisherTransformOscillator ma2 period value: {0}", _ftoInd.Ma2Period);
+        }
+    }
+}
+ 
+Ma2Series
+Свойство Ma2Series возвращает или задает серию значений периода линии Ma2 индикатора.
+IIndicatorSeries Ma2Series { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и получить последнее значение серии периода линии Ma2 индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Fisher transform oscillator Ma2 series value: {0}", _ftoInd.Ma2Series[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и задать значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("FisherTransformOscillator period value: {0}", _ftoInd.Period);
+        }
+    }
+}
+ 
+UpSeries
+Свойство UpSeries возвращает или задает значения верхней серии индикатора.
+IIndicatorSeries UpSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fisher Transform Oscillator и получить значенич верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private FisherTransformOscillator _ftoInd;
+        protected override void Init()
+        {
+            _ftoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Fisher transform oscillator up series value: {0}", _ftoInd.UpSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Force Index
+Для создания индикатора Force Index и получения информации о нем, используется класс ForceIndex, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainSeries
+Свойство MainSeries возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Force Index и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ForceIndex _fiInd;
+        protected override void Init()
+        {
+            _fiInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Force index main series value: {0}", _fiInd.MainSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Method
+Свойство Method возвращает или задает метод вычисления значения скользящей средней для индикатора.
+MaMethod Method  { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Force Index и задать метод вычисления простой скользящей средней.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var fiInd= GetIndicator(Instrument.Id, Timeframe);
+            fiInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+Period 
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Force Index и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ForceIndex _fiInd;
+        protected override void Init()
+        {
+            _fiInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("ForceIndex period value: {0}", _fiInd.Period);
+        }
+    }
+}
+ 
+PriceMode
+Свойство PriceMode возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode PriceMode  { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Force Index и получить тип цены, по которой рассчитывается серия  значений индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ForceIndex _fiInd;
+        protected override void Init()
+        {
+            _fiInd= GetIndicator(Instrument.Id, Timeframe);
+           _fiInd.PriceMode = PriceMode.Close;
+        }
+    }
+}
+Индикатор Fractals
+Для создания индикатора Fractals и получения информации о нем, используется класс Fractals, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+BottomSeries
+Свойство BottomSeries возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries BottomSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fractals и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Fractals _frInd;
+        protected override void Init()
+        {
+            _frInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Fractals bottom series value: {0}", _frInd.BottomSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Range
+Свойство Range возвращает или задает значение диапазона индикатора.
+int Range { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Fractals и получить значение диапазона индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Fractals _frInd;
+        protected override void Init()
+        {
+            _frInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Fractals range value: {0}", _frInd.Range);
+        }
+    }
+}
+Индикатор Gator Oscillator
+Для создания индикатора Gator Oscillator и получения информации о нем, используется класс GatorOscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+
+
+JawsPeriod
+Свойство JawsPeriod возвращает или задает период линии «Челюсть Аллигатора».
+Int JawsPeriod { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить  значение параметра для линии «Челюсть Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Gator oscillator jaws period  value: {0}", _goInd.JawsPeriod);
+        }
+    }
+}
+ 
+JawsShift
+Свойство JawsShift возвращает или задает смещение для периода линии «Челюсть Аллигатора».
+int JawsShift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить   значение смещения для линии «Челюсть Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator jaws shift value: {0}", _goInd.JawsShift);
+        }
+    }
+}
+ 
+LipsPeriod
+Свойство LipsPeriod возвращает или задает период линии «Губы Аллигатора».
+Int LipsPeriod { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить  значение параметра для линии «Губы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator lips period value: {0}", _goInd.LipsPeriod);
+        }
+    }
+}
+ 
+LipsShift
+Свойство LipsShift возвращает или задает смещение для периода линии «Губы Аллигатора».
+int LipsShift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить   значение смещения для линии «Губы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator lips shift value: {0}", _goInd.LipsShift);
+        }
+    }
+}
+ 
+TeethPeriod
+Свойство TeethPeriod возвращает или задает период линии «Зубы Аллигатора».
+Int TeethPeriod { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить  значение параметра для линии «Зубы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {        private GatorOscillator _goInd;
+             protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+    { 
+           Print("GatorOscillator teeth period value: {0}", _goInd.TeethPeriod);
+        }
+    }
+}
+ 
+TeethShift
+Свойство TeethShift возвращает или задает смещение для периода линии «Зубы Аллигатора».
+int TeethShift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить   значение смещения для линии «Зубы Аллигатора».
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator teeth shift value: {0}", _goInd.TeethShift );
+        }
+    }
+}
+ 
+Method
+Свойство Method возвращает или задает метод вычисления значения скользящей средней для индикатора.
+MaMethods Method { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и задать метод вычисления простой скользящей средней SMA.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class GatorOscillator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var goInd = GetIndicator(Instrument.Id, Timeframe);
+            goInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+NegativeSeriesDown
+Свойство NegativeSeriesDown возвращает или задает значение нижней отрицательной серии индикатора.
+IIndicatorSeries NegativeSeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorsSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить последнее значение нижней отрицательной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator negative down series value: {0}", _goInd.NegativeSeriesDown[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+NegativeSeriesUp 
+Свойство NegativeSeriesUp возвращает или задает значение верхней отрицательной серии индикатора.
+IIndicatorSeries NegativeSeriesUp { get; set; }
+Тип возвращаемого значения: IIndicatorsSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить последнее значение верхней отрицательной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator negative up series value: {0}", _goInd.NegativeSeriesUp[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+PositiveSeriesDown
+Свойство PositiveSeriesDown возвращает или задает значение нижней отрицательной серии индикатора.
+IIndicatorSeries PositiveSeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorsSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить последнее значение нижней положительной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator positive down series value: {0}", _goInd.PositiveSeriesDown[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+PositiveSeriesUp
+Свойство PositiveSeriesUp возвращает или задает значение верхней отрицательной серии индикатора.
+IIndicatorSeries PositiveSeriesUp { get; set; }
+Тип возвращаемого значения: IIndicatorsSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и получить последнее значение верхней положительной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private GatorOscillator _goInd;
+        protected override void Init()
+        {
+            _goInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("GatorOscillator positive up series value: {0}", _goInd.PositiveSeriesUp[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+PriceMode
+Свойство PriceMode возвращает или задает тип цены, по которой рассчитывается значение индикатора.
+PriceMode PriceMode { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Gator Oscillator и задать тип цены, по которой рассчитывается значение индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var goInd= GetIndicator(Instrument.Id, Timeframe);
+            goInd.PriceMode = PriceMode.Close;
+        }
+    }
+}
+Индикатор Heiken Ashi
+Для создания индикатора Heiken Ashi и получения информации о нем, используется класс HeikenAshi, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+CloseSeries
+Свойство CloseSeries возвращает или задает серию значений цены закрытия  индикатора.
+IIndicatorSeries CloseSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Heiken Ashi и получить значение последней цены закрытия индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private HeikenAshi _haInd;
+        protected override void Init()
+        {
+            _haInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("HeikenAshi close serie value: {0}", _haInd.CloseSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+OpenSeries
+Свойство OpenSeries возвращает или задает серию значений цены открытия  индикатора.
+IIndicatorSeries OpenSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Heiken Ashi и получить значение последней цены открытия индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private HeikenAshi _haInd;
+        protected override void Init()
+        {
+            _haInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("HeikenAshi open serie value: {0}", _haInd.OpenSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Ichimoku Kinko Hyo
+Для создания индикатора Ichimoku Kinko Hyo и получения информации о нем, используется класс Ichimoku, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+Chinkou Span
+Свойство Chinkou Span возвращает или задает серию значений Chinkou Span  индикатора.
+IIndicatorSeries ChinkouSpan { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить последнее значение серии Chinkou Span индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _ichInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku ChinkouSpan series value: {0}", _ichInd.ChinkouSpan[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Kijun-sen
+Свойство Kijun-sen возвращает или задает значение Kijun-sen периода индикатора.
+Int KijunSen { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить значение Kijun-sen периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _goIichIndnd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku Kijun-Sen period value: {0}", _ichInd.KijunSen);
+        }
+    }
+}
+ 
+KijunSenSeries
+Свойство KijunSenSeries возвращает или задает значения Kijun-sen серии индикатора.
+IIndicatorSeries KijunSenSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить последнее значение Kijun-sen серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _ichInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku Kijun-sen series value: {0}", _ichInd.KijunSenSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Senkou Span
+Свойство Senkou Span возвращает или задает значение Senkou Span периода индикатора.
+int SenkouSpan { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить значение Senkou Span периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _goIichIndnd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku Senkou Span period value: {0}", _ichInd.SenkouSpan );
+        }
+    }
+}
+ 
+SenkouSpanASeries 
+Свойство SenkouSpanASeries возвращает или задает значения Senkou Span A серии индикатора.
+IIndicatorSeries SenkouSpanASeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить последнее значение Senkou Span A серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _ichInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku Senkou Span A series value: {0}", _ichInd.SenkouSpanASeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SenkouSpanBSeries
+Свойство SenkouSpanBSeries возвращает или задает значения Senkou Span B серии индикатора.
+IIndicatorSeries SenkouSpanBSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить последнее значение Senkou Span B серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _ichInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku Senkou Span B series value: {0}", _ichInd.SenkouSpanBSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Tankan Sen
+Свойство Tankan Sen возвращает или задает значение Tankan-sen периода индикатора.
+int TankanSen { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить значение Tankan-sen периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _goIichIndnd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku Tankan-sen period value: {0}", _ichInd.TankanSen);
+        }
+    }
+}
+ 
+ 
+TankanSenSeries
+Свойство TankanSenSeries возвращает или задает значения Tankan-sen серии индикатора.
+IIndicatorSeries TankanSenSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Ichimoku Kinko Hyo  и получить последнее значение Tankan-sen серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Ichimoku _ichInd;
+        protected override void Init()
+        {
+            _ichInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Ichimoku Tankan-sen series value: {0}", _ichInd.TankanSenSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Keltner Channel
+Для создания индикатора Keltner Channel и получения информации о нем, используется класс KeltnerChannel, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Keltner Channel и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var kchInd = GetIndicator(Instrument.Id, Timeframe);
+            kchInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+ 
+Deviation 
+Свойство Deviation возвращает или задает значение отклонения индикатора.
+double Deviation  { get; set; }
+Тип возвращаемого значения: double
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Keltner Channel и задать значение отклонения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var kchInd = GetIndicator(Instrument.Id, Timeframe);
+            kchInd.Deviation = 3;
+        }
+    }
+}
+ 
+ 
+LowerSeries
+Свойство LowerSeries возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries LowerSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Keltner Channel и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private KeltnerChannel _kchInd;
+        protected override void Init()
+        {
+            _kchInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("KeltnerChannel lower series value: {0}", _kchInd.LowerSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+ 
+MiddleSeries
+Свойство MiddleSeries возвращает или задает среднюю серию значений индикатора.
+IIndicatorSeries MiddleSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Keltner Channel и получить последнее значение средней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private KeltnerChannel _kchInd;
+        protected override void Init()
+        {
+            _kchInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("KeltnerChannel middle serie value: {0}", _kchInd.MiddleSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+ 
+UpperSeries
+Свойство UpperSeries возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries UpperSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Keltner Channel и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private KeltnerChannel _kchInd;
+        protected override void Init()
+        {
+            _kchInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("KeltnerChannel upper series value: {0}", _kchInd.UpperSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Keltner Channel и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private KeltnerChannel _kchInd;
+        protected override void Init()
+        {
+            _kchInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("KeltnerChannel period value: {0}", _kchInd.Period);
+        }
+    }
+}
+ 
+ 
+Shift
+Свойство Shift возвращает или задает смещение индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Keltner Channel и получить значение смещения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private KeltnerChannel _kchInd;
+        protected override void Init()
+        {
+            _kchInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("KeltnerChannel shift value: {0}", _kchInd.Shift);
+        }
+    }
+}
+Индикатор Market Facilitation Index
+Для создания индикатора Market Facilitation Index и получения информации о нем, используется класс MarketFacilitationIndex, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MfiDownVolumeDownSeries
+Свойство MfiDownVolumeDownSeries возвращает или задает серию значений падения индекса и падения объема индикатора.
+IIndicatorSeries MfiDownVolumeDownSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Market Facilitation Index и получить последнее значение серии падения индекса и падения объема индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MarketFacilitationIndex _mfiInd;
+        protected override void Init()
+        {
+            _mfiInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MarketFacilitationIndex mfi down volume down series value: {0}", _mfiInd.MfiDownVolumeDownSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+MfiDownVolumeUpSeries
+Свойство MfiDownVolumeDownSeries возвращает или задает серию значений падения индекса и роста объема индикатора.
+IIndicatorSeries MfiDownVolumeUpSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Market Facilitation Index и получить последнее значение серии падения индекса и роста объема индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MarketFacilitationIndex _mfiInd;
+        protected override void Init()
+        {
+            _mfiInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MarketFacilitationIndex mfi down volume up series value: {0}", _mfiInd.MfiDownVolumeUpSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+MfiUpVolumeDownSeries 
+Свойство MfiUpVolumeDownSeries возвращает или задает серию значений роста индекса и падения объема индикатора.
+IIndicatorSeries MfiUpVolumeDownSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Market Facilitation Index и получить последнее значение серии роста индекса и падения объема индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MarketFacilitationIndex _mfiInd;
+        protected override void Init()
+        {
+            _mfiInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MarketFacilitationIndex mfi up volume down series value: {0}", _mfiInd.MfiUpVolumeDownSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+MfiUpVolumeUpSeries
+Свойство MfiUpVolumeUpSeries возвращает или задает серию значений роста индекса и роста объема индикатора.
+IIndicatorSeries MfiUpVolumeUpSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Market Facilitation Index и получить последнее значение серии роста индекса и роста объема индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MarketFacilitationIndex _mfiInd;
+        protected override void Init()
+        {
+            _mfiInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MarketFacilitationIndex mfi up volume up series value: {0}", _mfiInd.MfiUpVolumeUpSeries [Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Mass Index
+Для создания индикатора Mass Index и получения информации о нем, используется класс MassIndex, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainSeries
+Свойство MainSeries возвращает или задает главную серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Mass Index и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MassIndex _miInd;
+        protected override void Init()
+        {
+            _miInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MassIndex main series value: {0}", _miInd.MainSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+PeriodEma
+Свойство PeriodEma возвращает или задает значение периода экспоненциальной скользящей средней индикатора.
+int PeriodEma { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Mass Index и получить значение периода экспоненциальной скользящей средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MassIndex_miInd;
+        protected override void Init()
+        {
+            _miInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MassIndex Ema period value: {0}", _miInd.PeriodEma);
+        }
+    }
+}
+ 
+PeriodEmaOfEma
+Свойство PeriodEmaOfEma возвращает или задает значение периода (сглаженной экспоненциальной скользящей средней значения EMA) индикатора.
+int PeriodEmaOfEma { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Mass Index и получить значение периода экспоненциальной скользящей средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MassIndex_miInd;
+        protected override void Init()
+        {
+            _miInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MassIndex EmaOfEma  period value: {0}", _miInd.PeriodEmaOfEma );
+        }
+    }
+}
+ 
+PeriodSum 
+Свойство PeriodSum возвращает или задает количество суммируемых значений индикатора.
+int PeriodSum { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Mass Index и получить количество суммируемых значений индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MassIndex_miInd;
+        protected override void Init()
+        {
+            _miInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MassIndex Sum  period value: {0}", _miInd.PeriodSum);
+        }
+    }
+}
+Индикатор Momentum
+Для создания индикатора Momentum и получения информации о нем, используется класс Momentum, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Momentum и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var momentInd= GetIndicator(Instrument.Id, Timeframe);
+            momentInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Momentum и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Momentum _momentInd;
+        protected override void Init()
+        {
+             _momentInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Momentum period value: {0}", _momentInd.Period);
+        }
+    }
+}
+ 
+SeriesMomentum
+Свойство SeriesMomentum возвращает или задает серию значений индикатора.
+IIndicatorSeries SeriesMomentum { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Momentum и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Momentum _momentInd;
+        protected override void Init()
+        {
+            _momentInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Momentum series value: {0}", _momentInd.SeriesMomentum[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Money  Flow Index
+Для создания индикатора Money Flow Index и получения информации о нем, используется класс MoneyFlowIndex, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainSeries
+Свойство MainSeries возвращает или задает главную серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Momentum и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MoneyFlowIndex _mfiInd;
+        protected override void Init()
+        {
+             _mfiInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MoneyFlowIndex period value: {0}", _mfiInd.Period);
+        }
+    }
+}
+Индикатор Moving Average
+Для создания индикатора Moving Average и получения информации о нем, используется класс MovingAverage, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var maInd = GetIndicator(Instrument.Id, Timeframe);
+            maInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+DataIndicator
+Свойство DataIndicator возвращает базовый индикатор, на котором строится  индикатор Moving Average.
+Indicator DataIndicator { get; set; }
+Тип возвращаемого значения: Indicator
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average и получить базовый индикатор, на котором был построен индикатор данный.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var maInd = GetIndicator(Instrument.Id, Timeframe);
+            var baseInd = maInd.DataIndicator;
+        }
+    }
+}
+ 
+Method
+Свойство Method возвращает или задает метод вычисления значения скользящей средней индикатора
+MaMethod Method { get; set; }
+Тип возвращаемого значения: MaMethod
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average и задать метод вычисления простой скользящей средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var maInd = GetIndicator(Instrument.Id, Timeframe);
+            maInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+ 
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average и получить значение его периода.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverage _maInd;
+        protected override void Init()
+        {
+            _maInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MovingAverage period value: {0}", _maInd.Period);
+        }
+    }
+}
+ 
+SeriesMa 
+Свойство SeriesMa возвращает или задает значения серии скользящей средней индикатора.
+IIndicatorSeries SeriesMa { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average и получить последнее значение серии скользящей средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverage _maInd;
+        protected override void Init()
+        {
+            _maInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MovingAverage Ma series value: {0}", _maInd.SeriesMa[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Shift
+Свойство Shift возвращает или задает смещение индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average и получить значение смещения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+   [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverage _maInd;
+        protected override void Init()
+        {
+            _maInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MovingAverage shift value: {0}", _maInd.Shift);
+        }
+    }
+}
+Индикатор Moving Average Convergence Divergence (MACD)
+Для создания индикатора Moving Average Convergence Divergence (MACD) и получения информации о нем, используется класс MovingAverageConvergenceDivergence, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор MACD и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var macdInd = GetIndicator(Instrument.Id, Timeframe);
+            macdInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+FastEmaPeriod 
+Свойство FastEmaPeriod возвращает или задает значение периода быстрой экпоненциальной скользящей средней индикатора.
+int FastEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор MACD и получить значение периода быстрой экспоненциальной средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageConvergenceDivergence _macdInd;
+        protected override void Init()
+        {
+            _macdInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("MovingAverageConvergenceDivergence fast Ema period value: {0}", _macdInd.FastEmaPeriod );
+        }
+    }
+}
+ 
+SlowEmaPeriod 
+Свойство SlowEmaPeriod возвращает или задает значение периода медленной экпоненциальной скользящей средней индикатора.
+int SlowEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор MACD и получить значение периода медленной экспоненциальной средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageConvergenceDivergence _macdInd;
+        protected override void Init()
+        {
+            _macdInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("MovingAverageConvergenceDivergence slow Ema period value: {0}", _macdInd.SlowEmaPeriod);
+        }
+    }
+}
+ 
+SmaPeriod
+Свойство SmaPeriod возвращает или задает значение периода простой скользящей средней индикатора.
+int SlowEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор MACD и получить значение периода простой средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageConvergenceDivergence _macdInd;
+        protected override void Init()
+        {
+            _macdInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("MovingAverageConvergenceDivergence Sma period value: {0}", _macdInd.SmaPeriod);
+        }
+    }
+}
+ 
+SeriesMacd
+Свойство SeriesMacd возвращает или задает серию значений индикатора.
+IIndicatorSeries SeriesMacd { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор MACD и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageConvergenceDivergence _macdInd;
+        protected override void Init()
+        {
+            _macdInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MovingAverageConvergenceDivergence main series value: {0}", _macdInd.SeriesMacd[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesSignal
+Свойство SeriesSignal возвращает или задает значение серии сигналов индикатора.
+IIndicatorSeries SeriesSignal { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор MACD и получить последнее значение серии сигналов индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageConvergenceDivergence _macdInd;
+        protected override void Init()
+        {
+            _macdInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MovingAverageConvergenceDivergence signal series value: {0}", _macdInd.SeriesSignal[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Moving Average of Oscillator
+Для создания индикатора Moving Average of Oscillator и получения информации о нем, используется класс MovingAverageofOscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average of Oscillator и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var maoInd = GetIndicator(Instrument.Id, Timeframe);
+            maoInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+FastEmaPeriod
+Свойство FastEmaPeriod возвращает или задает значение периода быстрой экпоненциальной скользящей средней индикатора.
+int FastEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average of Oscillator и получить значение периода быстрой экспоненциальной средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageOfOscillator _maoInd;
+        protected override void Init()
+        {
+            _maoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("MovingAverageOfOscillator fast Ema period value: {0}", _maoInd.FastEmaPeriod );
+        }
+    }
+}
+ 
+SlowEmaPeriod
+Свойство SlowEmaPeriod возвращает или задает значение периода медленной экпоненциальной скользящей средней индикатора.
+int SlowEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average of Oscillator и получить значение периода медленной экспоненциальной средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageOfOscillator _maoInd;
+        protected override void Init()
+        {
+            _maoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("MovingAverageOfOscillator slow Ema period value: {0}", _maoInd.SlowEmaPeriod);
+        }
+    }
+}
+ 
+SmaPeriod
+Свойство SmaPeriod возвращает или задает значение периода простой скользящей средней индикатора.
+int SlowEmaPeriod  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average of Oscillator и получить значение периода простой средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageOfOscillator _maoInd;
+        protected override void Init()
+        {
+            _maoInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("MovingAverageOfOscillator Sma period value: {0}", _maoInd.SmaPeriod);
+        }
+    }
+}
+ 
+SeriesMain
+Свойство SeriesMain возвращает или задает серию значений индикатора.
+IIndicatorSeries SeriesMain { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Moving Average of Oscillator и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private MovingAverageOfOscillator _maoInd;
+        protected override void Init()
+        {
+            _maoInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("MovingAverageOfOscillator main series value: {0}", _maoInd.SeriesMain[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор On Balance Volume
+Для создания индикатора On Balance Volume и получения информации о нем, используется класс OnBalanceVolume, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+ObvSeries
+Свойство ObvSeries возвращает или задает серию значений индикатора.
+IIndicatorSeries ObvSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор On Balance Volume и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private OnBalanceVolume _obvInd;
+        protected override void Init()
+        {
+            _obvInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("OnBalanceVolume main series value: {0}", _obvInd.ObvSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Parabolic SAR
+Для создания индикатора Parabolic SAR и получения информации о нем, используется класс ParabolicSAR, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+CoefStep
+Свойство CoefStep возвращает или задает значение коэффициента шага индикатора.
+double CoefStep { get; set; }
+Тип возвращаемого значения: double
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Parabolic SAR и получить значение коэффициента шага индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ParabolicSar _psInd;
+        protected override void Init()
+        {
+            _psInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ParabolicSar coeficient step value: {0}", _psInd.CoefStep);
+        }
+    }
+}
+ 
+MaxCoef
+Свойство MaxStep возвращает или задает значение максимального коэффициента скорости сближения индикатора с ценой.
+double MaxCoef { get; set; }
+Тип возвращаемого значения: double
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Parabolic SAR и получить значение максимального коэффициента скорости сближения индикатора с ценой.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ParabolicSar _psInd;
+        protected override void Init()
+        {
+            _psInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ParabolicSar max coefficient value: {0}", _psInd.MaxCoef);
+        }
+    }
+}
+ 
+SarSeries
+Свойство SarSeries возвращает или задает значение серию значений индикатора.
+IIndicatorSeries SarSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Parabolic SAR и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ParabolicSar _psInd;
+        protected override void Init()
+        {
+            _psInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ParabolicSar main series value: {0}", _psInd.SarSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Pivot
+Для создания индикатора Pivot и получения информации о нем, используется класс Pivot, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+PivotSeries
+Поле PivotSeries содержит серию значений индикатора.
+IIndicatorSeries PivotSeries
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение серии Pivot индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+            Print("Pivot serie value: {0}", _pivot.PivotSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+PivotType
+Поле PivotType содержит тип рассчета значений индикатора.
+PivotType PivotType
+Тип возвращаемого значения: PivotType
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить тип рассчета значений индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+            Print("Pivot type: {0}", _pivot.PivotType);
+        }
+    }
+}
+ 
+R1
+Поле R1 содержит значения нижней серии линии сопротивления индикатора.
+IIndicatorSeries R1
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение нижней серии линии сопротивления индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot R1 value: {0}", _pivot.R1[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+R2 
+Поле R2 содержит значения средней серии линии сопротивления индикатора.
+IIndicatorSeries R2
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение средней серии линии сопротивления индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot R2 value: {0}", _pivot.R2[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+R3
+Поле R3 содержит значения верхней серии линии сопротивления индикатора.
+IIndicatorSeries R3
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение верхней серии линии сопротивления индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot R3 value: {0}", _pivot.R3[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+R4
+Поле R4 содержит значения Pivot серии линии сопротивления индикатора.
+IIndicatorSeries R4
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение Pivot серии линии сопротивления индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot R4 value: {0}", _pivot.R4[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Range
+Поле Range содержит значение диапазона индикатора.
+PivotBarPeriod Range
+Тип возвращаемого значения: PivotBarPeriod
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить значение диапазона индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot range value: {0}", _pivot.Range);
+        }
+    }
+}
+ 
+S1
+Поле S1 содержит значения верхней серии линии поддержки индикатора.
+IIndicatorSeries S1
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение верхней серии линии поддержки индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot S1 value: {0}", _pivot.S1[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+S2 
+Поле S2 содержит значения средней серии линии поддержки индикатора.
+IIndicatorSeries S2
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение средней серии линии поддержки индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot S2 value: {0}", _pivot.S2[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+S3
+Поле S3 содержит значения нижней серии линии поддержки индикатора.
+IIndicatorSeries S3
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение нижней серии линии поддержки индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot S3 value: {0}", _pivot.S3[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+S4
+Поле S4 содержит значения Pivot серии линии сопротивления индикатора.
+IIndicatorSeries S4
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Pivot и получить последнее значение Pivot серии линии сопротивления индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Pivot _pivot;
+        private ISeries _barSeries;
+        private int _lastIndex = -1;
+        protected override void Init()
+        {
+            _pivot = GetIndicator(this.Instrument.Id, Timeframe);
+            _barSeries = GetCustomSeries(this.Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+             if (_lastIndex >= _barSeries.Range.To - 1) return;
+             _lastIndex = _barSeries.Range.To - 1;
+            var index = _lastIndex;
+           Print("Pivot S4 value: {0}", _pivot.S4[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Price  Channel
+Для создания индикатора Price Channel и получения информации о нем, используется класс PriceChannel, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+LowerSeries
+Свойство LowerSeries возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries LowerSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Price  Channel и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private PriceChannel _pcInd;
+        protected override void Init()
+        {
+            _pcInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Price channel lower series value: {0}", _pcInd.LowerSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+MiddleSeries
+Свойство MiddleSeries возвращает или задает среднюю серию значений индикатора.
+IIndicatorSeries MiddleSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Price  Channel и получить последнее значение средней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private PriceChannel _pcInd;
+        protected override void Init()
+        {
+            _pcInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("Price channel middle series value: {0}", _pcInd.MiddleSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+UpperSeries
+Свойство UpperSeries возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries UpperSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Price Channel и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private PriceChannel _pcInd;
+        protected override void Init()
+        {
+            _pcInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("PriceChannel upper series value: {0}", _pcInd.UpperSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Price  Channel и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private PriceChannel _pcInd ;
+        protected override void Init()
+        {
+            _pcInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("PriceChannel period value: {0}", _pcInd .Period);
+        }
+    }
+}
+ 
+Shift
+Свойство Shift возвращает или задает значение смещения индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Price  Channel и получить значение смещения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private PriceChannel _pcInd ;
+        protected override void Init()
+        {
+            _pcInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("PriceChannel shift value: {0}", _pcInd .Shift);
+        }
+    }
+}
+Индикатор Rate Of Change Oscillator (ROC Oscillator)
+Для создания индикатора Rate Of Change Oscillator и получения информации о нем, используется класс RateOfChangeOscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Rate Of Change Oscillator и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var rocInd = GetIndicator(Instrument.Id, Timeframe);
+            rocInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+MainSeries
+Свойство MainSeries возвращает или задает главную серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Rate Of Change Oscillator (ROC Oscillator) и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RateOfChangeOscillator _rocInd;
+        protected override void Init()
+        {
+            _rocInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("RateOfChangeOscillator main series value: {0}", _rocInd.MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Rate Of Change Oscillator (ROC Oscillator) и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RateOfChangeOscillator _rocInd;
+        protected override void Init()
+        {
+            _rocInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("RateOfChangeOscillator period value: {0}", _rocInd.Period);
+        }
+    }
+}
+Индикатор Regression Line
+Для создания индикатора Regression Line и получения информации о нем, используется класс RegressionLine, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainSeries
+Свойство MainSeries возвращает или задает главную серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+ 
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Regression Line и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RegressionLine _rlInd;
+        protected override void Init()
+        {
+            _rlInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("RegressionLine main series value: {0}", _rlInd.MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Regression Line и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RegressionLine _rlInd;
+        protected override void Init()
+        {
+            _rlInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("RegressionLine period value: {0}", _rlInd.Period);
+        }
+    }
+}
+Индикатор Relative Strenght Index
+Для создания индикатора Relative Strenght Index и получения информации о нем, используется класс RelativeStrenghtIndex, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Relative Strenght Index и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var rsiInd = GetIndicator(Instrument.Id, Timeframe);
+            rsiInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Relative Strenght Index и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RelativeStrenghtIndex _rsiInd;
+        protected override void Init()
+        {
+            _rsiInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("RelativeStrenghtIndex period value: {0}", _rsiInd.Period);
+        }
+    }
+}
+ 
+SeriesRsi
+Свойство SeriesRsi возвращает или задает серию значений индикатора.
+IIndicatorSeries SeriesRsi { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Relative Strenght Index и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RelativeStrenghtIndex _rsiInd;
+        protected override void Init()
+        {
+            _rsiInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("RelativeStrenghtIndex main series value: {0}", _rsiInd.SeriesRsi[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Relative Vigor Index
+Для создания индикатора Relative Vigor Index и получения информации о нем, используется класс RelativeVigorIndex, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Relative Vigor Index и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RelativeVigorIndex _rviInd;
+        protected override void Init()
+        {
+            _rviInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("RelativeVigorIndex period value: {0}", _rviInd.Period);
+        }
+    }
+}
+ 
+RviSeries
+Свойство RviSeries возвращает или задает серию значений индикатора.
+IIndicatorSeries RviSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Relative Vigor Index и получить последнее значение серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RelativeVigorIndex _rviInd;
+        protected override void Init()
+        {
+            _rviInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("RelativeVigorIndex main series value: {0}", _rviInd.RviSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SignalSeries
+Свойство SignalSeries возвращает или задает сигнальную серию значений индикатора.
+IIndicatorSeries SignalSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Relative Vigor Index и получить последнее значение сигнальной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private RelativeVigorIndex _rviInd;
+        protected override void Init()
+        {
+            _rviInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("RelativeVigorIndex signal series value: {0}", _rviInd.SignalSeries[Bars.Range.To-1]);
+        }
+    }
+}
+Индикатор Standard Deviation
+Для создания индикатора Standard Deviation и получения информации о нем, используется класс StandardDeviation, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Standard Deviation и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StandardDeviation _stdInd;
+        protected override void Init()
+        {
+            _stdInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           _stdInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Method 
+Свойство Method возвращает или задает метод вычисления значения скользящей средней индикатора.
+MaMethods Method { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Standard Deviation и задать метод вычисления простой скользящей средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var stdInd = GetIndicator(Instrument.Id, Timeframe);
+            stdInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Standard Deviation и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StandardDeviation _stdInd;
+        protected override void Init()
+        {
+            _stdInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StandardDeviation period value: {0}", _stdInd.Period);
+        }
+    }
+}
+ 
+ SeriesStd
+Свойство SeriesStd возвращает или задает главную серию значений индикатора.
+IIndicatorSeries SeriesStd { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Standard Deviation и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StandardDeviation _stdInd;
+        protected override void Init()
+        {
+            _stdInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StandardDeviation std series value: {0}", _stdInd.SeriesStd[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Shift
+Свойство Shift возвращает или задает значение смещения индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Standard Deviation и получить значение смещения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StandardDeviation _stdInd ;
+        protected override void Init()
+        {
+            _stdInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StandardDeviation shift value: {0}", _stdInd.Shift);
+        }
+    }
+}
+Индикатор Stochastic Oscillator
+Для создания индикатора Stochastic Oscillator и получения информации о нем, используется класс StochasticOscillator, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainLine
+Свойство MainLine возвращает или задает серию значений главной линии индикатора.
+IIndicatorSeries MainLine { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Stochastic Oscillator и получить последнее значение серии главной линии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StochasticOscillator _stoInd;
+        protected override void Init()
+        {
+            _stoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StochasticOscillator main line series value: {0}", _stoInd.MainLine[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Method
+Свойство Method возвращает или задает метод вычисления значения скользящей средней индикатора.
+MaMethods Method { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Stochastic Oscillator и задать метод вычисления простой скользящей средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var stoInd= GetIndicator(Instrument.Id, Timeframe);
+            stoInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+PeriodD
+Свойство PeriodD возвращает или задает значение периода D индикатора.
+int PeriodD  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Stochastic Oscillator и получить значение периода D индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StochasticOscillator _stoInd;
+        protected override void Init()
+        {
+            _stoInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StochasticOscillator period  D value: {0}", _stoInd.PeriodD);
+        }
+    }
+}
+ 
+PeriodK
+Свойство PeriodK возвращает или задает значение периода K индикатора.
+int PeriodK { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Stochastic Oscillator и получить значение периода K индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StochasticOscillator _stoInd;
+        protected override void Init()
+        {
+            _stoInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StochasticOscillator period  K value: {0}", _stoInd.PeriodK);
+        }
+    }
+}
+ 
+PricePair
+Свойство PricePair возвращает или задает значения пары цен для рассчета значений индикатора.
+PricePair PricePair { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Stochastic Oscillator и получить значение пары цен для рассчета значений индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StochasticOscillator _stoInd;
+        protected override void Init()
+        {
+            _stoInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StochasticOscillator price pair value: {0}", _stoInd.PricePair);
+        }
+    }
+}
+ 
+SiganlLine
+Свойство SignalLine возвращает или задает серию значений сигнальной линии индикатора.
+IIndicatorSeries SignalLine { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Stochastic Oscillator и получить последнее значение серии сигнальной линии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StochasticOscillator _stoInd;
+        protected override void Init()
+        {
+            _stoInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StochasticOscillator signal line series value: {0}", _stoInd.SignalLine[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Slowing
+Свойство Slowing возвращает или задает значение замедления индикатора.
+int Slowing { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Stochastic Oscillator и получить значение замедления индикатора.
+using IPro.Model.Programming.TradeSystems
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private StochasticOscillator _stoInd;
+        protected override void Init()
+        {
+            _stoInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("StochasticOscillator slowing value: {0}", _stoInd.Slowing);
+        }
+    }
+}
+Индикатор Support and Resistance
+Для создания индикатора Support and Resistance и получения информации о нем, используется класс SupportAndResistance, который наследуется от класса Indicator.
+ 
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+BottomSeries
+Свойство BottomSeries возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries BottomSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Support and Resistance и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private SupportAndResistance _sarInd;
+        protected override void Init()
+        {
+            _sarInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("SupportAndResistance bottom series value: {0}", _sarInd.BottomSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+TopSeries
+Свойство TopSeries возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries TopSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Support and Resistance и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private SupportAndResistance _sarInd;
+        protected override void Init()
+        {
+            _sarInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("SupportAndResistance top series value: {0}", _sarInd.TopSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Range
+Свойство Range возвращает или задает диапазон индикатора.
+int Range { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Support and Resistance и получить значение диапазона индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private SupportAndResistance _sarInd;
+        protected override void Init()
+        {
+            _sarInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("SupportAndResistance range value: {0}", _sarInd.Range);
+        }
+    }
+}
+Индикатор Time Series Forecast
+Для создания индикатора Time Series Forecast и получения информации о нем, используется класс TimeSeriesForecast, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainSeries
+Свойство MainSeries возвращает или задает главную серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Time Series Forecast и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TimeSeriesForecast _tsfInd;
+        protected override void Init()
+        {
+            _tsfInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TimeSeriesForecast main series value: {0}", _tsfInd.MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Time Series Forecast  и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TimeSeriesForecast _tsfInd;
+        protected override void Init()
+        {
+            _tsfInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("TimeSeriesForecast period value: {0}", _tsfInd.Period);
+        }
+    }
+}
+Индикатор Trend Envelope
+Для создания индикатора Trend Envelope и получения информации о нем, используется класс TrendEnvelope, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+AppliedPrice
+Свойство AppliedPrice возвращает или задает тип цены, по которой рассчитывается значение серии индикатора.
+PriceMode AppliedPrice { get; set; }
+Тип возвращаемого значения: PriceMode
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Envelope и тип цены, по которой рассчитываются значения серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendEnvelope _tenvInd;
+        protected override void Init()
+        {
+            _tenvInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           _tenvInd.AppliedPrice = PriceMode.Close;
+        }
+    }
+}
+ 
+Deviation
+Свойство Deviation возвращает или задает значение отклонения индикатора.
+double Deviation { get; set; }
+Тип возвращаемого значения: double
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Envelope и задать значение отклонения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var tenvInd = GetIndicator(Instrument.Id, Timeframe);
+            tenvInd.Deviation = 3;
+        }
+    }
+}
+ 
+Method
+Свойство Method возвращает или задает метод вычисления значения скользящей средней индикатора.
+MaMethods Method { get; set; }
+Тип возвращаемого значения: MaMethods
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Envelope и задать метод вычисления простой скользящей средней индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        protected override void Init()
+        {
+            var tenvInd = GetIndicator(Instrument.Id, Timeframe);
+            tenvInd.Method = MaMethods.Sma;
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period  { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Envelope и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendEnvelope _tenvInd;
+        protected override void Init()
+        {
+            _tenvInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendEnvelope period value: {0}", _tenvInd.Period);
+        }
+    }
+}
+ 
+SeriesDown
+Свойство SeriesDown возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries SeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Envelope и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendEnvelope _tenvInd ;
+        protected override void Init()
+        {
+            _tenvInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendEnvelope down series value: {0}", _tenvInd.SeriesDown[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+SeriesUp
+Свойство SeriesDown возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries SeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Envelope и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendEnvelope _tenvInd ;
+        protected override void Init()
+        {
+            _tenvInd  = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendEnvelope up series value: {0}", _tenvInd .SeriesUp[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Shift
+Свойство Shift возвращает или задает значение смещения индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Envelope и получить значение смещения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendEnvelope _tenvInd ;
+        protected override void Init()
+        {
+            _tenvInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendEnvelope shift value: {0}", _tenvInd.Shift);
+        }
+    }
+}
+Индикатор Trend Price  Channel
+Для создания индикатора Trend Price Channel и получения информации о нем, используется класс TrendPriceChannel, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+DownSeries
+Свойство DownSeries возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries DownSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Price  Channel  и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendPriceChannel _tpcInd;
+        protected override void Init()
+        {
+            _tpcInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendPriceChannel down series value: {0}", _tpcInd.DownSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+UpSeries
+Свойство UpSeries возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries UpSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Price  Channel  и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendPriceChannel _tpcInd;
+        protected override void Init()
+        {
+            _tpcInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendPriceChannelup series value: {0}", _tpcInd.UpSeries[Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Price  Channel   и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendPriceChannel _tpcInd;
+        protected override void Init()
+        {
+            _tpcInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendPriceChannel period value: {0}", _tpcInd.Period);
+        }
+    }
+}
+ 
+PricePair
+Свойство PricePair возвращает или задает значения пары цен для рассчета значений индикатора.
+PricePair PricePair { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Price  Channel  и получить значение пары цен для рассчета значений индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendPriceChannel _tpcInd;
+        protected override void Init()
+        {
+            _tpcInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendPriceChannel price pair value: {0}", _tpcInd.PricePair);
+        }
+    }
+}
+ 
+Shift
+Свойство Shift возвращает или задает значение смещения индикатора.
+int Shift { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Trend Price  Channel  и получить значение смещения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private TrendPriceChannel _tpcInd;
+        protected override void Init()
+        {
+            _tpcInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("TrendPriceChannel shift value: {0}", _tpcInd.Shift);
+        }
+    }
+}
+Индикатор Volumes
+Для создания индикатора Volumes и получения информации о нем, используется класс Volumes, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+SeriesDown
+Свойство SeriesDown возвращает или задает нижнюю серию значений индикатора.
+IIndicatorSeries SeriesDown { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Volumes и получить последнее значение нижней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Volumes _vInd;
+        protected override void Init()
+        {
+            _vInd = GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Volumes down series value: {0}", _vInd.SeriesDown[Bars.Range.To - 1]);
+        }
+    }
+}
+ 
+SeriesUp
+Свойство SeriesUp возвращает или задает верхнюю серию значений индикатора.
+IIndicatorSeries SeriesUp { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Volumes и получить последнее значение верхней серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private Volumes _vInd;
+        protected override void Init()
+        {
+            _vInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+            Print("Volumes up series value: {0}", _vInd.SeriesUp[Bars.Range.To - 1]);
+        }
+    }
+}
+Индикатор Williams Percent Range
+Для создания индикатора Williams Percent Range и получения информации о нем, используется класс WilliamsPercentRange, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+MainSeries
+Свойство MainSeries возвращает или задает главную серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Williams Percent Range и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private WilliamsPercentRange _wprInd;
+        protected override void Init()
+        {
+            _wprInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("WilliamsPercentRange main series value: {0}", _wprInd.MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+ 
+Period
+Свойство Period возвращает или задает значение периода индикатора.
+int Period { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Williams Percent Range и получить значение периода индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private WilliamsPercentRange _wprInd;
+        protected override void Init()
+        {
+            _wprInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("WilliamsPercentRange period value: {0}", _wprInd.Period);
+        }
+    }
+}
+Индикатор Zig-Zag
+Для создания индикатора Zig-Zag и получения информации о нем, используется класс ZigZag, который наследуется от класса Indicator.
+ 
+Получить доступ к каждому члену этого класса можно, используя команды, описанные в данном разделе.
+ 
+ExtBackStep
+Свойство ExtBackStep возвращает или задает минимальное число свечей между локальными максимумами и минимумами индикатора.
+int ExtBackStep { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Zig-Zag и получить значение минимального числа свечей между локальными максимумами и минимумами индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ZigZag _zzInd;
+        protected override void Init()
+        {
+            _zzInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ZigZag ext back step value: {0}", _zzInd.ExtBackStep);
+        }
+    }
+}
+ 
+ExtDepth
+Свойство ExtDepth возвращает или задает минимальное количество свечей, учитывая которые индикатор не будет строить второй экстремум (максимум или минимум), если экстремум меньше (или больше) на величину отклонения от предыдущего.
+int ExtDepth { get; set; }
+Тип возвращаемого значения: int
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Zig-Zag и получить значение минимального количества свечей, учитывая которое индикатор не будет строить второй экстремум.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")] 
+    public class CreateIndicator : TradeSystem
+    {
+
+        private ZigZag _zzInd;
+        protected override void Init()
+        {
+            _zzInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ZigZag ext depth value: {0}", _zzInd.ExtDepth);
+        }
+    }
+}
+ 
+ExtDeviation
+Свойство ExtDeviation возвращает или задает значение отклонения индикатора.
+double ExtDeviation { get; set; }
+Тип возвращаемого значения: double
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Zig-Zag и задать значение отклонения индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem 
+  {
+        protected override void Init()
+        {
+            var zzInd= GetIndicator(Instrument.Id, Timeframe);
+            zzInd.ExtDeviation = 3;
+        }
+    }
+}
+ 
+MainSeries
+Свойство MainSeries возвращает или задает главную серию значений индикатора.
+IIndicatorSeries MainSeries { get; set; }
+Тип возвращаемого значения: IIndicatorSeries
+ 
+Пример
+Ниже описанный фрагмент кода позволит создать индикатор Zig-Zag и получить последнее значение главной серии индикатора.
+using IPro.Model.Programming.TradeSystems;
+using IPro.Model.Programming.Indicators.Standard;
+namespace IPro.TradeSystems
+{
+    [TradeSystem("CreateIndicator")]
+    public class CreateIndicator : TradeSystem
+    {
+        private ZigZag _wprInd;
+        protected override void Init()
+        {
+            _wprInd= GetIndicator(Instrument.Id, Timeframe);
+        }
+        protected override void NewBar()
+        {
+           Print("ZigZag main series value: {0}", _wprInd.MainSeries [Bars.Range.To-1]);
+        }
+    }
+}
+
